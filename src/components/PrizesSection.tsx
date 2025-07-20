@@ -189,7 +189,7 @@ export const PrizesSection: React.FC = () => {
             <Trophy className="w-6 h-6 text-white mr-3" />
             <span className="text-white font-bold text-xl">
               Total Prize Pool:{" "}
-              <span className="text-2xl font-orbitron">₹1,50,000+</span>
+              <span className="text-2xl font-orbitron">₹1,50,000</span>
             </span>
           </div>
         </div>

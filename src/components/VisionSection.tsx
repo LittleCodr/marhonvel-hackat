@@ -136,7 +136,7 @@ export const VisionSection: React.FC = () => {
             </h3>
             <p className="text-gray-300 mb-6 max-w-2xl">
               Be part of a movement that values innovation over imitation, 
-              depth over superficiality, and impact over income.
+              depth over superficiality, and impact over income. ₹150K prize pool awaits. Registration: ₹40 per team member.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 

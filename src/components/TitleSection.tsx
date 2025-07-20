@@ -92,7 +92,7 @@ export const TitleSection: React.FC = () => {
         {/* Epic Description */}
         <p className="text-lg md:text-xl text-gray-200 mb-12 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
           When genius meets justice and power converges with innovation, legends are born. 
-          Join the greatest hackathon in the multiverse where heroes and villains unite to forge the future.
+          Join the greatest 36-hour hackathon in the multiverse where heroes and villains unite to forge the future.
         </p>
 
         {/* Enhanced Decorative Elements with Character Themes */}

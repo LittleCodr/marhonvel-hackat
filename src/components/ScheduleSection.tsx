@@ -123,7 +123,7 @@ export const ScheduleSection: React.FC = () => {
     {
       time: "11th - 13th Sept",
       title: "OFFLINE FINAL HACKATHON",
-      description: "48-hour hackathon at GLA University Noida Campus",
+      description: "36-hour hackathon at GLA University Noida Campus",
       icon: MapPin,
       color: "blue",
       day: "Final Phase",

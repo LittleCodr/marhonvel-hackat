@@ -11,7 +11,7 @@ export const HeroSection: React.FC = () => {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      const targetDate = new Date("2025-07-19T23:59:59").getTime();
+      const targetDate = new Date("2025-07-23T00:00:00").getTime();
       const now = new Date().getTime();
       const difference = targetDate - now;
 
@@ -100,13 +100,13 @@ export const HeroSection: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-gradient-to-br from-yellow-900/30 to-red-900/30 rounded-xl p-6 border border-yellow-500/30">
             <div className="text-3xl font-bold text-yellow-400 mb-2 font-orbitron">
-              48 HOURS
+              36 HOURS
             </div>
             <div className="text-gray-300">Of Pure Innovation</div>
           </div>
           <div className="bg-gradient-to-br from-blue-900/30 to-purple-900/30 rounded-xl p-6 border border-blue-500/30">
             <div className="text-3xl font-bold text-blue-400 mb-2 font-orbitron">
-              ₹200K
+              ₹150K
             </div>
             <div className="text-gray-300">Total Prize Pool</div>
           </div>
@@ -120,7 +120,7 @@ export const HeroSection: React.FC = () => {
         {/* Countdown Timer */}
         <div className="mb-12">
           <h4 className="text-2xl font-bold text-white mb-6 font-orbitron">
-            ROUND 1 ENDS IN:
+            REGISTRATION STARTS IN:
           </h4>
           <div className="grid grid-cols-4 gap-4 max-w-lg mx-auto">
             {Object.entries(timeLeft).map(([unit, value], index) => (
@@ -170,10 +170,15 @@ export const HeroSection: React.FC = () => {
         {/* Additional Info */}
         <div className="mt-12 text-center">
           <p className="text-gray-400 text-lg">
-            Round 1 ends on{" "}
-            <span className="text-red-400 font-bold">July 19th, 2025</span> •{" "}
+            Registration starts on{" "}
+            <span className="text-green-400 font-bold">July 23rd, 2025</span> •{" "}
+            Registration ends on{" "}
+            <span className="text-red-400 font-bold">August 14th, 2025</span> •{" "}
             <span className="text-yellow-400 font-bold">
-              Multi-phase competition
+              ₹40 per team member
+            </span> •{" "}
+            <span className="text-yellow-400 font-bold">
+              36-hour hackathon
             </span>
           </p>
         </div>

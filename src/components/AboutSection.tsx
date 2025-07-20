@@ -42,7 +42,7 @@ export const AboutSection: React.FC = () => {
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             When genius meets justice and power converges with innovation,
             legends are born. Join forces with the greatest minds in the Marvel
-            Universe.
+            Universe for 36 hours of pure innovation.
           </p>
         </div>
 
@@ -230,7 +230,7 @@ export const AboutSection: React.FC = () => {
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-blue-400 mb-2 font-orbitron">
-              ₹200K
+              ₹150K
             </div>
             <div className="text-gray-400 uppercase tracking-wide">
               Prize Pool
@@ -238,7 +238,7 @@ export const AboutSection: React.FC = () => {
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-green-400 mb-2 font-orbitron">
-              48
+              36
             </div>
             <div className="text-gray-400 uppercase tracking-wide">Hours</div>
           </div>

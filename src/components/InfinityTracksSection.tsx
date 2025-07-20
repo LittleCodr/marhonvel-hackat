@@ -49,14 +49,14 @@ export const InfinityTracksSection: React.FC = () => {
     },
     {
       name: "POWER STONE",
-      track: "Blockchain",
+      track: "Aptos",
       icon: Blocks,
       color: "purple",
       gradient: "from-purple-400 to-violet-500",
       bgGradient: "from-purple-900/30 to-violet-900/30",
       borderColor: "border-purple-500/50",
-      description: "Wield the raw power of blockchain technology to create decentralized solutions and revolutionary financial systems.",
-      powers: ["Smart Contracts", "DeFi", "NFTs", "Crypto Solutions"],
+      description: "Wield the raw power of Aptos blockchain to create decentralized solutions and revolutionary financial systems.",
+      powers: ["Move Language", "DeFi", "NFTs", "Aptos Ecosystem"],
       glowColor: "shadow-purple-500/50",
       image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvWOSGHzBpOZ1ZIXqxBqJtfVdapnUsr_Tb1j4Xv12cmvdbTu4xba3TT8SUZZGyQC7bMBM_m0pHt5wJA-pWLFN4ftiIuyXTmF3NuWcdkdLNDz1bVbUr9kDrCbiEXTznlCUzqmJ56yBHuiHtubBMYeP6Lyr5I4S3YifWJA8HaeL1bjkk1klDlVm5eEZ64Aw/s640/power.png"
     },
